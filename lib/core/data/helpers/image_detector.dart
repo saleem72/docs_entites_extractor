@@ -26,7 +26,7 @@ class ImageDetector {
   );
 
   ObjectDetector? _objectDetector;
-
+  // test
   void _initializeDetector() async {
     _objectDetector?.close();
     _objectDetector = null;
